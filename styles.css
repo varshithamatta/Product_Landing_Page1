@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: antiquewhite;
+}
+
+.home_page {
+    background-image:url("https://plugins-media.makeupar.com/smb/blog/post/2021-05-28/394bcea3-e2ac-4d96-b8cd-df695e396628.jpg");
+    background-size: cover; /* Adjusts the background image to cover the entire container */
+    background-position: center;
+}
+
+.main_heading_block {
+    display: flex;
+    align-items: center;
+}
+
+.aboutus_block{
+    position: relative;
+}
+
+.aboutus_block img{
+    height: 500px;
+    width: 400px;
+   
+}
+
+.text-overlay {
+    position: absolute;
+    top:45%;
+    left: 40%;
+    right: -15%;
+    transform: translate(-40%, -50%);
+    color: brown;
+  }
+  
+  .text-overlay p {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+nav{
+    max-width: 1200px;
+    padding: 1rem;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo_name a {
+    font-size :2rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    margin-right: 9rem;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+.link a{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.link a:hover {
+    color:brown;
+}
+
+.link .nav_btn {
+    color: white !important;
+    background-color: brown;
+    border-radius: 5px;
+}
+
+.link .nav_btn:hover{
+    background-color:rgb(129, 33, 33);
+}
+
+.home_info {
+    margin: 150px;
+}
+
+.heading_class {
+    color: white;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.home_info a {
+    color:white;
+    background-color: brown;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-weight: 500;
+}
+
+.products_div {
+    margin-top: 50px;
+}
+
+.products_div h1 {
+    text-align: center;
+    color: brown;
+    font-size: 40px;
+}
+
+.img_gapping{
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img_gapping img{
+    height: 500px;
+    width: 400px;
+}
+
+.btn_gapping{
+    display: flex;
+    align-items: center;
+    
+    margin-left: 200px;
+    gap: 350px;
+}
+
+.btn_gapping a{
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    padding: 1rem 2rem;
+}
+
+.howtoapply_block{
+    margin-top: 70px;
+}
+
+.howtoapply_block h1{
+    text-align: center;
+    font-size: 3rem;
+    color: brown;
+}
+
+.steps{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15rem;
+    width: 300px;
+    height: 300px;
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+.steps img{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.stepsnumber{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    margin-top: 20px;
+    margin-left: 160px;
+    gap: 28rem;
+}
+
+.stepsnumber h2{
+    color: brown;
+}
+
+.stepsname{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    margin-top: 20px;
+    margin-left: 125px;
+    gap: 26rem;
+}
+
+.stepsname h2{
+    color: brown;
+    font-weight:100;
+}
+
+.stepsname1{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 125px;
+    gap: 22rem;
+}
+
+.stepsname1 h2{
+    color: brown;
+    font-weight:100;
+}
+
+.contactus_block h1{
+    margin-top: 50px;
+    font-size: 50px;
+    color: brown;
+}
+
+.contactus_block {
+    margin-left: 100px;
+    
+}
+
+.contactus_block form {
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.contactus_block input[type="text"],
+.contactus_block input[type="email"],
+.contactus_block textarea {
+    border-radius: 10px; /* Adjust the value to increase/decrease the curve */
+    padding: 10px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+    width: 700px; /* Ensures the input fields take full width */
+    box-sizing: border-box;
+    text-align: auto; /* Ensures padding is included in the width */
+    height : 60px;
+}
+
+.contactus_block textarea {
+    height:150px;
+}
+
+.contactus_block button[type="submit"] {
+    border-radius: 10px; /* Adjust the value to increase/decrease the curve */
+    padding: 10px 20px; /* Adjust as needed */
+    background-color: brown; /* Example color, change as needed */
+    color: #fff; /* Text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contactus_block button[type="submit"]:hover {
+    background-color: brown; /* Example color, change as needed */
+}
+
+.flex_content {
+    display:flex;
+    gap:100px;
+}
+
+.contactus_imageblock p{
+    font-size:20px;
+    font-weight:500;
+    margin-top:50px;
+    color: brown;
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:brown;
+    color:#fff;
+    margin-top:50px;
+  }
+
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #fff;
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+
+  .footer-basic .social > a:hover {
+    opacity:1;
+  }
+
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#fff;
+    margin-bottom:0;
+  }
+
+  
